@@ -1,0 +1,21 @@
+{
+    "message": "Hola mundo Eleventy 🎈🎈",
+    "linksDoc":[
+        {
+            "text": "Documentacion de <i>11ty</i> 🥹🎈🎈",
+            "url": "https://www.11ty.dev/docs/"
+        },
+        {
+            "text": "Blog de 11ty 🥹🎈🎈",
+            "url": "https://www.11ty.dev/blog/"
+        },
+        {
+            "text": "Comunnity de 11ty 🥹🎈🎈",
+            "url": "https://www.11ty.dev/docs/community/"
+        },
+        {
+            "text": "Conference de 11ty 🥹🎈🎈",
+            "url": "https://conf.11ty.dev/"
+        }
+    ]
+}

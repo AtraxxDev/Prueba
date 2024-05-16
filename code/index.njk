@@ -1,0 +1,24 @@
+---
+layout: layout-page.njk
+title: Pagina de inicio
+description: Meta descripción de la pagina de inicio
+---
+
+<h1>{{ title }}</h1>
+
+<p>Este es un proyecto que ando realizando con eleventy</p>
+<hr>
+<hr>
+<hr>
+<h2>{{ site.message }}</h2>
+<p>Para sacarle mejor provecho a a este projecto te sugiero revisar los siguientes enlaces:</p>
+<ul>
+    {% for link in site.linksDoc %}
+        <li>
+            <a href="{{link.url}}" target="_blank">{{ link.text | safe }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+<h1>Mi nombre es {{app.Name}}</h1>
+<h1>Y tengo {{app.Age}} años</h1>
